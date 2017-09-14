@@ -1,0 +1,54 @@
+@rpx : 16;
+html, body { position: relative; height: 100%; }
+
+body { background: #eee; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color: #000; margin: 0; padding: 0; }
+
+.swiper-container { width: 100%; height: 100%; }
+
+.swiper-slide { text-align: center; font-size: 18px; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; }
+
+* { margin: 0; padding: 0; border: none; }
+
+html, body { width: 100%; height: 100%; font-size: 16px; background: url(../img/big_b.png) repeat; background-size: cover; background-position: center center; }
+
+#footballtv { width: 10rem; height: 5.625rem; background: url(../img/background.png) no-repeat; background-size: cover; background-position: center center; }
+
+#title { position: absolute; top: 0.21875rem; width: 1.46875rem; height: 0.3333333333rem; left: 0.3229166667rem; }
+
+.index_slider { overflow: hidden; position: relative; top: 0.7604166667rem; left: 0.1510416667rem; }
+
+#silder1, #slider2 { border-radius: 0.1041666667rem; }
+#silder1 #item_one, #slider2 #item_one { z-index: 0; margin-top: 0.15625rem; margin-left: 0.15625rem; }
+#silder1 #item_one #reading, #slider2 #item_one #reading { height: 100%; width: 2.1979166667rem; text-align: center; margin: auto; }
+#silder1 #item_one #reading img, #slider2 #item_one #reading img { position: absolute; width: 0.5885416667rem; height: 0.6510416667rem; margin-top: 0.2083333333rem; z-index: 0; margin-left: -0.15625rem; }
+#silder1 #item_one #reading #bq, #slider2 #item_one #reading #bq { margin-top: 0.3125rem; position: relative; z-index: 99; }
+#silder1 #item_one #reading #vs, #slider2 #item_one #reading #vs { position: relative; z-index: 99; }
+#silder1 .item, #slider2 .item { width: 6.2291666667rem; height: 1.0260416667rem; border-radius: 0.1041666667rem; margin-top: 0.1302083333rem; margin-left: 0.15625rem; background-color: #19252b; border: 1px solid #2f3b41; display: table; }
+#silder1 .item .item_left, #slider2 .item .item_left { display: table-cell; width: 1.09375rem; margin-top: 0.0520833333rem; margin-left: 0.0520833333rem; }
+#silder1 .item #state, #slider2 .item #state { display: inline-block; text-align: center; width: 1.0416666667rem; height: 0.234375rem; line-height: 0.234375rem; background-color: #263d4f; border-radius: 0.1041666667rem; font-size: 0.1822916667rem; color: #dcdcdc; }
+#silder1 .item #time, #slider2 .item #time { margin-top: 0.078125rem; font-size: 0.3125rem; color: #dcdcdc; display: block; width: 1.0416666667rem; text-align: center; }
+#silder1 .item #data_week, #slider2 .item #data_week { font-weight: bold; margin-top: 0.0260416667rem; color: #8aa3af; display: block; font-size: 0.1302083333rem; }
+#silder1 .item .item_right, #slider2 .item .item_right { margin-left: 0.15625rem; width: 5.0520833333rem; height: 1rem; position: relative; display: table; }
+#silder1 .item .item_right #team1, #silder1 .item .item_right #team2, #slider2 .item .item_right #team1, #slider2 .item .item_right #team2 { display: table-cell; margin: auto 0; display: table; }
+#silder1 .item .item_right #team1 img, #silder1 .item .item_right #team2 img, #slider2 .item .item_right #team1 img, #slider2 .item .item_right #team2 img { display: inline-block; width: 0.484375rem; height: 0.4791666667rem; }
+#silder1 .item .item_right #team1 #msg, #silder1 .item .item_right #team2 #msg, #slider2 .item .item_right #team1 #msg, #slider2 .item .item_right #team2 #msg { display: inline-block; margin-left: 0.1041666667rem; }
+#silder1 .item .item_right #team1 #msg #name, #silder1 .item .item_right #team2 #msg #name, #slider2 .item .item_right #team1 #msg #name, #slider2 .item .item_right #team2 #msg #name { display: inline; font-size: 0.15625rem; color: #dcdcdc; }
+#silder1 .item .item_right #team1 #msg #ratio, #silder1 .item .item_right #team2 #msg #ratio, #slider2 .item .item_right #team1 #msg #ratio, #slider2 .item .item_right #team2 #msg #ratio { margin-top: 0.15625rem; font-size: 0.15625rem; color: #88A0AC; }
+#silder1 .item .item_right #team1, #slider2 .item .item_right #team1 { width: 1.3697916667rem; position: absolute; top: 0; bottom: 0; margin: auto; }
+#silder1 .item .item_right #team2, #slider2 .item .item_right #team2 { width: 1.3697916667rem; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; }
+#silder1 .item .item_right #reading, #slider2 .item .item_right #reading { display: table-cell; text-align: center; width: 2.1979166667rem; margin: auto 0; font-weight: bold; position: absolute; left: 0; right: 0; top: 0; right: 0; bottom: 0; margin: auto; }
+#silder1 .item .item_right #reading img, #slider2 .item .item_right #reading img { position: absolute; width: 0.5885416667rem; height: 0.6510416667rem; z-index: 0; margin-top: -0.15625rem; margin-left: -0.15625rem; }
+#silder1 .item .item_right #reading #bq, #slider2 .item .item_right #reading #bq { display: inline-block; font-size: 0.1302083333rem; color: #88A0AC; position: relative; z-index: 99; }
+#silder1 .item .item_right #reading #vs, #slider2 .item .item_right #reading #vs { display: block; color: #437d93; font-size: 0.234375rem; position: relative; z-index: 99; }
+
+#right #winnews { position: absolute; top: 0.3645833333rem; left: 6.8229166667rem; height: 1.5625rem; overflow: hidden; width: 2.9479166667rem; font-size: 0.1458333333rem; color: #61bfe4; }
+#right #winnews #userlist { position: absolute; }
+#right #winnews #user1, #right #winnews #user2 { margin-left: 0.078125rem; margin-bottom: 0.15625rem; display: table; }
+#right #winnews #user1 img, #right #winnews #user2 img { display: table-cell; height: 0.5572916667rem; vertical-align: middle; }
+#right #winnews span { display: table-cell; margin: auto 0; padding-left: 0.1041666667rem; vertical-align: middle; margin-left: 0.1041666667rem; }
+#right #code { position: absolute; width: 2.1927083333rem; height: 2.1927083333rem; left: 7.2916666667rem; top: 3.1770833333rem; }
+
+#left { width: 6.5364583333rem; height: 4.7291666667rem; overflow: hidden; position: relative; top: 0.7604166667rem; left: 0.1510416667rem; }
+#left .item { overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */
